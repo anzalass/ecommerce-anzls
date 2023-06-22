@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+
+}
+ 
+/* NAVBAR */
+/* 
+
+.navbar .navbar-nav .nav-item .nav-link .navname {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.nav-link {
+    font-weight: 300 !important;  
+    font-family: 'League Spartan', sans-serif;
+}
+
+span.navname{
+    font-family: 'League Spartan', sans-serif;
+}
+
+*/
+.navbar{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 800;
+    position: fixed;
+    width: 100%;
+/*   
+    box-shadow: 0 8px 6px -6px ; */
+    /* --webkit-box-shadow :  0 8px 6px -6px gray; */
+    /* border-bottom: solid gray !important; */
+} 
+.active {
+    border-bottom: 1px solid #000;
+} 
+
+.navbar-brand{
+    font-weight: 700;
+    font-family: 'League Spartan', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.dropdown-menu.show{
+    width: 10%;
+    margin-left: -50px;
+
+}
+
+.nav-item{
+    margin-left: 15px;
+    margin-top: 0px;
+
+}
+
+/* FOOTER */
+
+.footer{
+    color: white;
+    padding: 25px;
+    background: #000000;
+    background: -webkit-linear-gradient(
+        to right,
+        #434343,
+        #000000
+    );
+    background: linear-gradient(
+        to right, #434343, black
+    );
+    width: 100%;
+    z-index: 10;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.footer a:hover{
+    color: #ffefba;
+    border-bottom: 1px solid #ffefba;
+}
+
+/* PAGE NOT FOUND */
+.pnf{
+    display: flex;
+    min-height: 65vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pnfTitle{
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.pnfHead{
+    font-weight: normal;
+}
+
+.pnfBtn{
+    color: #000000;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.pnfBtn:hover{
+    color: white;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: black;
+}
+
+/* CONTACT */
+
+.contact{
+    justify-content: center;
+    align-items: center;
+}
+.bgcontact{
+    z-index: -10;
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.contactTiltle{
+    margin-top: -150px;
+    z-index: 10;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactDetail{
+    display: flex;
+    margin-top: 150px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.details{
+    margin-right: 50px;
+    list-style: none;
+}
+
+.contactDetail .map iframe{
+    width: 300px;
+    height: 300px;
+
+}
+
+/* About */
+.about{
+    margin-bottom: 200px;
+}
+
+.aboutDetail{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.imgAbout{
+    height: 400px;
+    width: 500px;
+}
+
+.aboutDesc{
+    text-align: center;
+    width: 50%;
+    margin-left: 50px;
+}
+
+/* REGISTER PAGE */
+
+.register{
+    height: 100vh;
+    width: 100%;
+    /* margin: auto; */
+    /* justify-content: center;
+    align-items: center; */
+    margin-bottom: 500px;
+}
+
+.formregis{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    height: 75vh;
+    background-color: rgb(164, 164, 164);
+
+}
+
+.formregisR{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    height: 130vh;
+    background-color: rgb(164, 164, 164);
+    margin-bottom: 100px;
+}
+
+
+.rcy{
+    margin-left: 55px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.inputGroup{
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    
+  
+}
+
+.inputDiv{
+    width: 80%;
+    margin: auto;
+}
+
+.imgRegis{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.inputTag{
+    width: 100%;
+    /* margin-left: 20px; */
+    margin-bottom: 0px;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+    
+}
+.inputTagP{
+    width: 100%;
+    /* margin-left: 20px; */
+    margin-bottom: 0px;
+    margin-top: 40px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+}
+
+.inputTagArea{
+    width: 100%;
+    /* margin-left: 20px; */
+    margin-bottom: 0px;
+    margin-top: 40px;
+    height: 80px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+}
+.btnDiv{
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+
+}
+
+
+.btnregis{
+    margin-top: 20px;
+    height: 45px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color:blueviolet;
+    border: none;
+ 
+}
+
+.aha{
+    width: 100%;
+    padding-top: 20px;
+   
+}
+.aha p{
+    margin-left: 90px;
+    
+}
+
+.divImg{
+
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    /* background-color: #000; */
+}
+
+.divImg2{
+    height: 100%;
+    width: 100%;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.hl{
+    margin-left: 55px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+
+.inputCat{
+    width: 370px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 6px;
+    padding-left: 20px;
+    border: 0.5px solid black;
+}
+
+/* DASHBOARD ADMIN */
+
+.listproduct{
+    margin-bottom: 30px;
+}
+
+.card-title{
+ 
+    line-height: 24px;
+    margin-top: 7px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    bottom: 0;
+    /* background-color: blue; */
+    height: 50px;
+  
+}
+
+.card-price{
+    /* background-color: #000000; */
+    height: 30px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    position: relative;
+    margin-left: 10px;
+    font-weight: 550;
+    font-size: 20px;
+    
+}
+
+
+.delProduct{
+    margin-left: 20px;
+}
+
+/* HOMEPAGE */
+.cart-homepage{
+    margin-bottom: -50px;
+    height: 420px;
+    margin-right: -5px;
+
+}
+
+
+.btnWish{
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-left: 77px;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btnCart{
+    margin-top: 10px;
+    margin-left: 10px;
+ 
+}
+
+.product-homepage{
+    margin-bottom: 100px;
+}
+.layout{
+    overflow-x: hidden;
+}
+
+.homepage{
+    margin-right: 20px;
+}

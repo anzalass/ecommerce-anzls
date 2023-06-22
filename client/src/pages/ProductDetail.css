@@ -1,0 +1,15 @@
+.detail-product{
+    margin-top: 100px;
+}
+
+.related-product{
+    justify-content: left;
+    margin-left: 60px;
+}
+
+.main-detail{
+    justify-content: center;
+    margin-left: 200px;
+    align-items: center;
+    align-content: center;
+}

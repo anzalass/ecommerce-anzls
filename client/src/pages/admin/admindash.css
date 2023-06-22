@@ -1,0 +1,41 @@
+.sidebar{
+    background-color: black;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    color: white;
+    margin-left: 0px;
+    z-index: 0;
+    
+}
+li{
+    list-style-type: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.dash-item{
+    text-decoration: none;
+    color: black;
+    text-underline-position: none;
+}
+
+.sidebartitle{
+    margin-left: 20px;
+    border-bottom: 0.5px solid black ;
+}
+
+.content{
+    margin-left: -80px;
+    margin-top: 50px;
+}
+
+.contenttit{
+    margin-left: -20px;
+}
+
+.cardAdmin{
+    margin-right: 20px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom:10px;
+}
