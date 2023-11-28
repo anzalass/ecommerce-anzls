@@ -1,2 +1,3 @@
-# ecommerce-sederhana
-Membuat Ecommerce Sederhana Menggunakan React Node.js Express.js
+# Ecommerce MERN
+
+Membuat Ecommerce Sederhana Pertamaku Menggunakan React Node.js Express.js
